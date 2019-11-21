@@ -1,0 +1,203 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Material+Icons);
+
+/* Master Styles */
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2,
+h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: 2em;
+}
+body,
+input[text],
+button {
+  color: #888;
+  font-family: Cambria, Georgia;
+}
+a {
+  cursor: pointer;
+  cursor: hand;
+}
+button {
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: auto;
+}
+label {
+  padding-right: 0.5em;
+}
+/* Navigation link styles */
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  /* background-color: #eee; */
+  border-radius: 4px;
+}
+nav a:visited,
+a:link {
+  color: #607d8b;
+}
+nav a:hover {
+  color: #039be5;
+  background-color: #cfd8dc;
+}
+nav a.active {
+  color: #039be5;
+}
+
+/* items class */
+.items {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 24em;
+}
+.items li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #eee;
+  margin: 0.5em;
+  padding: 0.3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+}
+.items li:hover {
+  color: #607d8b;
+  background-color: #ddd;
+  left: 0.1em;
+}
+.items li.selected {
+  background-color: #cfd8dc;
+  color: white;
+}
+.items li.selected:hover {
+  background-color: #bbd8dc;
+}
+.items .text {
+  position: relative;
+  top: -3px;
+}
+.items .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #607d8b;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  margin-right: 0.8em;
+  border-radius: 4px 0 0 4px;
+}
+/* everywhere else */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form-btn,
+img.avart-img {
+  max-width: 200px;
+}
+
+#example {
+  margin-bottom: 0;
+}
+
+button,
+input {
+  margin: 86;
+  padding: 15;
+}
+
+label {
+  margin: 68;
+  padding: 15;
+  background: inherit;
+}
+
+div.avatar > img {
+  border-radius: 50%;
+}
+.no-marging {
+  margin: 0 !important;
+}
+.alert-col > .alert.display {
+  opacity: 1;
+}
+
+div.container.profile {
+  padding: 10px 20px;
+}
+.center {
+  text-align: center;
+}
+.relative {
+  position: relative;
+}
+.absolue {
+  position: absolute;
+}
+
+div.profile-row {
+  margin-top: 55px;
+}
+.absolue.center {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 0);
+}
+
+div.alert {
+  width: 40%;
+}
+.alert-col > .alert {
+  padding: 10px;
+  border-radius: 0;
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+
+hr {
+  height: 2px;
+}
+.content-right > * {
+  float: right;
+}
+.form-btn {
+  min-width: 100px;
+  margin: 0 5px;
+}
+
+div.avatar-bg {
+  background: url(https://www.gravatar.com/avatar/1234566?size=200&d=mm) 50% 50%;
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  border-radius: 50%;
+  margin-left: calc(50% - 100px);
+}
