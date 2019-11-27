@@ -11849,13 +11849,15 @@ $S:20}
 F.lI.prototype={
 $1:function(a){var u,t,s
 H.a(a,"$iaK")
-u=this.a
+u=a.c
+if(u.b!=null&&u.a!=null){u=this.a
 t=u.d
 if(!C.b.d6(t,new F.lH(a))){P.bB("init "+J.aE(a.c.b)+","+J.aE(a.c.a))
 s=new Y.cC(a,u.h2(a))
 C.b.k(t,s)
-t=u.b
-J.dh(s.b,t.a)}u.c.b
+u=u.b
+J.dh(s.b,u.a)}}u=this.a
+u.c.b
 P.yd(new P.ad(1e7),H.k(u.gnC(),{func:1,ret:-1,args:[P.ai]}))},
 $S:36}
 F.lH.prototype={
